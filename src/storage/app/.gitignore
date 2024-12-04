@@ -3,4 +3,6 @@
 !.gitignore
 
 /storage/*
-!/storage/app/public/img
+!/storage/app/public/
+/storage/app/public/*
+!/storage/app/public/img/
