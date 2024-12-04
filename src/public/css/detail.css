@@ -1,0 +1,134 @@
+.detail-content {
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+.detail-content__inner {
+    margin: auto;
+    width: 800px;
+    padding: 70px;
+}
+
+.detail-link__top{
+    text-decoration: none;
+    color: #0085FF;
+}
+
+.detail-content__upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.detail-form__input{
+    width: 400px;
+    height: 40px;
+}
+
+.detail-form__textarea{
+    width: 800px;
+    height: 160px;
+}
+
+.detail-item__input-checkbox {
+    appearance: none;
+    /* デフォルトのチェックボックススタイルを削除 */
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    /* 丸くする */
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.detail-item__input-checkbox:checked {
+    background-color: #000;
+    /* チェック状態の背景色 */
+    border-color: #000;
+    /* 任意で枠線の色も変更 */
+    position: relative;
+}
+
+.detail-item__input-checkbox:checked::before {
+    content: '✓';
+    /* チェックマーク */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* チェックマークの色 */
+    font-size: 14px;
+    /* チェックマークの大きさ */
+    font-weight: bold;
+}
+
+.detail-item__input-checkbox:not(:first-of-type) {
+    margin-left: 30px;
+}
+
+.detail-image img {
+    max-width: 90%;
+    /* 親要素の幅に合わせる */
+    max-height: 350px;
+    /* 高さを固定 */
+    object-fit: contain;
+    /* 画像の縦横比を保つ */
+    border: 1px solid #ddd;
+    /* 任意で枠線を追加 */
+    border-radius: 5px;
+    /* 任意で角丸を追加 */
+}
+
+.detail-form__button{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-form__button-return{
+    width: 200px;
+    height: 50px;
+    background-color: #E0DFDE;
+    text-decoration: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.detail-form__button-submit{
+    width: 200px;
+    height: 50px;
+    background-color: #F5C800;
+    text-decoration: none;
+    outline: none;
+    border-radius: 5px;
+    border: #F5C800 1px solid;
+}
+
+.detail-form__delete{
+    position: relative;
+    width: 800px;
+}
+
+.detail-form__delete-button{
+    position: absolute;
+    left: 90%;
+    top: -35px;
+}
+
+.detail-form__delete-button i {
+    font-size: 20px;
+    color: red;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,19 @@
+.Product-header{
+    width: 1512px;
+}
+
+h1{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.Product-header__link{
+    text-decoration: none;
+    color: #F5C800;
+}
+
+.Product-header__link:hover{
+    text-decoration: none;
+    color: #F5C800;
+}

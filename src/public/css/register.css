@@ -1,0 +1,140 @@
+.register-content{
+    background-color: #F8F8F8;
+    height: 100vh;
+}
+
+.register-content__inner{
+    margin: auto;
+    width: 760px;
+    padding: 70px;
+}
+
+.register-ttl{
+    width: 100%;
+    font-size: 24px;
+}
+
+.register-item{
+    margin: 30px ;
+}
+
+.register-item__input-name,.register-item__input-price{
+    width: 100%;
+    height: 40px;
+}
+
+.register-item__input-description{
+    width: 100%;
+    height: 160px;
+}
+
+.register-item__input-checkbox{
+    appearance: none;
+        /* デフォルトのチェックボックススタイルを削除 */
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+        /* 丸くする */
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: #fff;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.register-item__input-checkbox:not(:first-of-type){
+    margin-left: 30px;
+}
+
+.register-item__input-checkbox:checked {
+    background-color: #000;
+    /* チェック状態の背景色 */
+    border-color: #000;
+    position: relative;
+    /* 任意で枠線の色も変更 */
+}
+
+.register-item__input-checkbox:checked::before {
+    content: '✓';
+    /* チェックマーク */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* チェックマークの色 */
+    font-size: 12px;
+    /* チェックマークのサイズ */
+    font-weight: bold;
+}
+
+.register-item__required{
+    color: #FFFFFF;
+    background-color: #FD0707;
+}
+
+.register-item__tag{
+    margin: 0px 5px 5px 0px;
+}
+
+.register-item__required-season{
+    display: inline-block;
+    margin-left: 5px;
+    color: #FD0707;
+}
+
+.register-form__button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.register-form__button-return{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #E0DFDE;
+    background-color: #E0DFDE;
+    border-radius: 5px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.register-form__button-return--a{
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+}
+
+.register-form__button-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #F5C800;
+    background-color: #F5C800;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error{
+    color: #FD0707;
+}
+
+#image-preview img {
+    max-width: 100%;
+    /* 親要素の幅に合わせる */
+    max-height: 200px;
+    /* 高さを固定 */
+    object-fit: contain;
+    /* 画像の縦横比を保つ */
+    border: 1px solid #ddd;
+    /* 任意で枠線を追加 */
+    border-radius: 5px;
+    /* 任意で角丸を追加 */
+}
+
