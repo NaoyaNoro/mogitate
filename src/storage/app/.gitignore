@@ -2,7 +2,8 @@
 !public/
 !.gitignore
 
-/storage/*
-!/storage/app/public/
-/storage/app/public/*
-!/storage/app/public/img/
+# storage/app 内のすべてを無視
+*
+
+# public/img フォルダ内のファイルは無視しない
+!/public/img/
