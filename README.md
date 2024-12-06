@@ -28,7 +28,7 @@
 * MySQL 8.0.26
 
 ## ER図
-![er](https://github.com/user-attachments/assets/aa9cfd0e-03e6-48c4-a78a-95bfeef5be0f)
+![er(mogitate)](https://github.com/user-attachments/assets/03cdf611-1287-44e1-be66-4a9ef2662075)
 
 
 ## URL
