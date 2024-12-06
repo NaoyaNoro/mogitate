@@ -26,3 +26,11 @@
 * php 7.4.9
 * Laravel 8.83.8
 * MySQL 8.0.26
+
+## ER図
+![er](https://github.com/user-attachments/assets/aa9cfd0e-03e6-48c4-a78a-95bfeef5be0f)
+
+
+## URL
+* 開発環境:http://localhost
+* phpmyadmin:http://localhost:8080/
