@@ -21,6 +21,7 @@
 5. アプリケーションキーの作成<br> `php artisan key:generate`
 6. マイグレーションの実行<br> `php artisan migrate`
 7. シーディングの実行<br> `php artisan db:seed`
+8. 保存した画像が正しく表示できない場合は，strageに保存したデータを再登録する<br> 'php artisan storage:link'
 
 ## 使用技術
 * php 7.4.9
