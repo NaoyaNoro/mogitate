@@ -6,3 +6,12 @@ docker/mysql/data/*
 #/storage/app/*
 #/storage/framework/*
 #/storage/logs/*
+
+# Ignore everything in the storage directory
+/storage/*
+
+# Allow specific directories or files
+!/storage/app/public/
+!/storage/app/public/*
+!/storage/logs/laravel.log
+!/storage/framework/cache/data/
