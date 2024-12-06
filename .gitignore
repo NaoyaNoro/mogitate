@@ -1,7 +1,8 @@
 docker/mysql/data/*
 !.gitkeep
 
-# storage ディレクトリを無視
-/storage/*
-# でも public は無視しない
-!/storage/app/public/
+# Ignore everything in the storage directory except .gitignore
+#/storage/*
+#/storage/app/*
+#/storage/framework/*
+#/storage/logs/*
